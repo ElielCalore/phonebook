@@ -1,0 +1,24 @@
+
+Request: GET /contact/read-contac at Wed Sep 07 2022 13:33:04 GMT-0300, IP: ::ffff:127.0.0.1, User Agent: insomnia/2022.4.2
+Response: 404 2.488 ms 
+
+Request: GET /contact/read-details-contact/ at Wed Sep 07 2022 13:36:28 GMT-0300, IP: ::ffff:127.0.0.1, User Agent: insomnia/2022.4.2
+Response Body:
+{
+	"error": "unknown endpoint"
+}
+Response: 404 1.738 ms 
+
+Request: GET /contact/read-contac at Wed Sep 07 2022 13:51:03 GMT-0300, IP: ::ffff:127.0.0.1, User Agent: insomnia/2022.4.2
+Response Body:
+{
+	"error": "unknown endpoint"
+}
+Response: 404 1.852 ms 
+
+Request: GET /api/persons/read at Wed Sep 07 2022 15:20:49 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response Body:
+{
+	"error": "unknown endpoint"
+}
+Response: 404 2.723 ms 

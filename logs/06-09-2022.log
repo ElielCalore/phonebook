@@ -1,0 +1,31 @@
+
+Request: GET /api/persons/read at Tue Sep 06 2022 11:59:26 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 0.804 ms 
+
+Request: GET /favicon.ico at Tue Sep 06 2022 11:59:26 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 1.487 ms 
+
+Request: POST /api/persons/create at Tue Sep 06 2022 11:59:58 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36
+Request Body:
+{
+	"name": "Eliel dos Santos Calore",
+	"number": "9808-5833"
+}
+Response: 404 0.595 ms 
+
+Request: GET /api/persons/read at Tue Sep 06 2022 12:00:03 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36
+Response: 404 0.154 ms 
+
+Request: GET /Contact at Tue Sep 06 2022 16:23:56 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 4.061 ms 
+
+Request: POST /contact/create-contact at Tue Sep 06 2022 16:28:28 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.29.2
+Request Body:
+{
+	"name": "eliel",
+	"number": 5
+}
+Response: 404 1.771 ms 
+
+Request: GET /api/persons/read at Tue Sep 06 2022 16:39:21 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 5.474 ms 

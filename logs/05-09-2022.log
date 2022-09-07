@@ -1,0 +1,78 @@
+
+Request: GET /api/persons at Mon Sep 05 2022 13:27:52 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.29.2
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Arto Hellas",
+		"number": "040-123456"
+	},
+	{
+		"id": 2,
+		"name": "Ada Lovelace",
+		"number": "39-44-5323523"
+	},
+	{
+		"id": 3,
+		"name": "Dan Abramov",
+		"number": "12-43-234345"
+	},
+	{
+		"id": 4,
+		"name": "Mary Poppendieck",
+		"number": "39-23-6423122"
+	}
+]
+Response: 200 3.080 ms 
+
+Request: POST /api/persons at Mon Sep 05 2022 13:28:20 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.29.2
+Request Body:
+{
+	"id": 443,
+	"name": "Eliel",
+	"number": "9985-5833"
+}
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Arto Hellas",
+		"number": "040-123456"
+	},
+	{
+		"id": 2,
+		"name": "Ada Lovelace",
+		"number": "39-44-5323523"
+	},
+	{
+		"id": 3,
+		"name": "Dan Abramov",
+		"number": "12-43-234345"
+	},
+	{
+		"id": 4,
+		"name": "Mary Poppendieck",
+		"number": "39-23-6423122"
+	},
+	{
+		"id": 443,
+		"name": "Eliel",
+		"number": "9985-5833"
+	}
+]
+Response: 200 0.586 ms 
+
+Request: GET / at Mon Sep 05 2022 18:10:26 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 8.619 ms 
+
+Request: GET /persons at Mon Sep 05 2022 18:11:47 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 7.878 ms 
+
+Request: GET /favicon.ico at Mon Sep 05 2022 18:11:47 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 2.173 ms 
+
+Request: GET /persons at Mon Sep 05 2022 18:11:52 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 0.896 ms 
+
+Request: GET /favicon.ico at Mon Sep 05 2022 18:11:52 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response: 404 2.462 ms 

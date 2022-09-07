@@ -1,0 +1,7 @@
+{
+    "singleQuote": true,
+    "eslint-disable consistent-return": "off",
+    "eslint-disable no-console": "off",
+    "eslint-disable spaced-comment": "off",
+    "eslint-disable import/newline-after-import": "off"
+}
