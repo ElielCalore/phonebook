@@ -22,3 +22,10 @@ Response Body:
 	"error": "unknown endpoint"
 }
 Response: 404 2.723 ms 
+
+Request: GET /api/persons/read at Wed Sep 07 2022 16:53:28 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Response Body:
+{
+	"error": "unknown endpoint"
+}
+Response: 404 4.152 ms 
